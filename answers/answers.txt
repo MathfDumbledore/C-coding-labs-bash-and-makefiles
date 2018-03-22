@@ -1,0 +1,65 @@
+--------------------------------------------------------------------------------
+    LAB 05                                  GNU Make and Regular Expressions
+--------------------------------------------------------------------------------
+
+    Answer all questions for Lab05 in this file. Questions or tasks which 
+    require you to edit another file have the name of the file already 
+    entered for you.
+
+--------------------------------------------------------------------------------
+    QUESTIONS
+--------------------------------------------------------------------------------
+
+------------------
+    QUESTION 1 
+------------------
+
+A)git clone https://bitbucket.org/glaphysp2t/lab5-example.git and git init dirName to create a new git repository named dirName in the current direvctory 
+
+B)git log --oneline ; A simple program that prints out an ASCII histogram based on a test set
+
+C) 
+
+D)modified:   README.md
+    
+E) git add filename; git commit -m comment or git commit -a -m comment
+
+F) git branch myfeature
+
+G) git checkout myfeature ; output of git branch --list is:  
+  master
+* myfeature <--curent branch
+
+
+H) modified lenghtOfAxis to be +1 in the for loop in draw.c
+
+------------------
+    QUESTION 2
+------------------
+
+A)$@ is the target file name these symbols would be substituted by the name of the file we are making.
+
+B)$^ substitutes the prerequisite files needed to make the target file eg. target file omlet is made of prerequisites egg.o and pan.o
+
+C)$< the name of the first prerequisite
+
+D)$? list of prerequisites newer than the target and that must be compiled first
+
+------------------
+    QUESTION 3
+------------------
+
+A) Submit modified Makefile
+
+B) Submit modified Makefile
+
+C) Submit modified C & H files
+
+D) Submit sim.data
+
+E) Submit graph image
+    
+F) #include <math.h> needed to be linked with -lm
+    
+G)i would make targets optimise and debug, add -Wall -O2 and -Wall -g respectively to the default CFLAGS for when the prerequisite object files are made from their c files
+    

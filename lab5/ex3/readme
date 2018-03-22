@@ -1,0 +1,20 @@
+to build the code simply go to the directory where the code is.
+eg. 
+
+cd path
+
+
+
+then write 
+
+make
+
+
+
+then
+
+./mycode to execute the code
+
+
+
+
